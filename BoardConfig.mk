@@ -101,5 +101,10 @@ TARGET_USES_QCOM_WCNSS_QMI := true
 WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/wlan.ko"
 WIFI_DRIVER_MODULE_NAME := "wlan"
 
+# Default.prop overrides to get adb working at boot
+ADDITIONAL_DEFAULT_PROPERTIES += \
+ro.secure=0 \
+ro.adb.secure=0
+
 # inherit from the proprietary version
 -include vendor/yu/tomato/BoardConfigVendor.mk
