@@ -5,9 +5,9 @@
     "branch": "lp5.1"
   },
   {
-    "repository": "CyanogenMod/android_kernel_cyanogen_msm8916",
+    "repository": "TEAM-RAZOR-DEVICES/kernel_cyanogen_tomato",
     "target_path": "kernel/cyanogen/msm8916",
-    "branch": "cm-12.1-amss-1.0.2"
+    "branch": "lp5.1"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_yu",
